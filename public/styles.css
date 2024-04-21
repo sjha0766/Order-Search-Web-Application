@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(220, 220, 220, 0.845);
+  overflow-y: hidden;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 10px;
+}
+.search-bar {
+  height: 80px;
+  width: 85%;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 100px;
+  padding: 8px;
+}
+.order-section {
+  height: 300px;
+  width: 85%;
+  background-color: white;
+  border-radius: 5px;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.values {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.445);
+  height: 80%;
+  border-radius: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  margin-top: 8px;
+}
+h4 {
+  color: rgba(0, 0, 0, 0.774);
+}
+.values .input {
+  /* padding: 5px 200px; */
+  border-radius: 100px;
+  font-size: large;
+  height: 32px;
+  width: 600px;
+  background-color: rgba(232, 232, 232, 0.895);
+}
+.values .btn {
+  background: linear-gradient(to left, #0f8415, #47ff50bb);
+  color: white;
+  font-style: bold;
+  width: 250px;
+  height: 32px;
+  border-radius: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.product-info{
+    width: 600px;
+}
+.details {
+  display: flex;
+  gap: 45px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.order-details-1 .paymenttype {
+  background-color: rgb(13, 217, 10);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 14px;
+  padding-bottom: 1px;
+}
+.order-details-1 .orderId {
+  color: rgb(7, 7, 214);
+  font-family: 1em sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.order-time {
+  font: 1em sans-serif;
+  text-align: end;
+}
+.order-time .order-date {
+  font-size: 15px;
+}
+.order-time h4 {
+  font-size: 12px;
+}
+.order-details-2 h3 {
+  font: 1em sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.order-details-2 h4 {
+  font: 1em sans-serif;
+}
+.order-details-2 span {
+  font: 1em sans-serif;
+  color: rgba(0, 0, 0, 0.943)
+}
+.address {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.details-3 {
+  margin-left: 20px;
+  display: flex;
+  gap: 100px;
+}
+.order-tracker button {
+  background-color: rgb(129, 124, 124);
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.link {
+  color: rgb(14, 14, 182);
+  font-size: 16px;
+  font: 1em sans-serif;
+}
+.payment-details h3 {
+  color: rgb(249, 4, 4);
+  font: 1em sans-serif;
+  font-weight: 400;
+}
+.payment-details h4 {
+  text-align: center;
+  margin-top: 3px;
+  font: 1em sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.product-details {
+  height: 110px;
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-details img {
+  height: 50px;
+  width: 60px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.product-details {
+  display: flex;
+}
+.product-details a {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  text-decoration: underline;
+  color: blue;
+}
+.product-model {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.788);
+  width: 450px;
+}
+.product-model h3{
+   margin-left: 7px; 
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 8px;
+  margin-left: 27px;
+  color: rgba(0, 0, 0, 0.788);
+  width: 450px;
+}
+.product-price .price{
+    margin-left: -18px;
+    
+}
+.product-price .del-charge{
+    margin-left: 10px;
+}
+.product-dispatch {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 8px;
+  margin-left: 7px;
+  color: rgba(0, 0, 0, 0.788);
+  width: 470px;
+}
+.discount h3 {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 6px;
+  margin-left: 7px;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 12px;
+}

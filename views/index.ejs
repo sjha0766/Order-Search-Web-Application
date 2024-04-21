@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Project</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Search Order</h2>
+        <div class="middle-section">
+            <div class="search-bar">
+              <form action="/" method="post">
+                <div class="values">
+                    <h4>By</h4>
+                    <input type="radio" id="orderId" name="searchBy" value="orderId" />
+                    <label for="orderId">Order Id</label><br />
+                    <input type="radio" id="mobile" name="searchBy" value="Mobile" />
+                    <label for="mobile">Mobile</label><br />
+                    <input type="radio" id="name" name="searchBy" value="Name" />
+                    <label for="name">Name</label><br />
+                    <input type="radio" id="email" name="searchBy" value="Email" />
+                    <label for="email">Email</label><br />
+                    <input class="input" name="searchValue" placeholder="Enter value..." type="text">
+                    <input class="btn" type="submit" value="SEARCH ORDER">
+                </div>
+            </form>
+            </div>
+            <div class="order-section">
+                <% if (order) { %>
+                    <div class="details">
+                        <div class="order-time">
+                            <h3 class="order-date">Order Date</h3>
+                            <script>
+                                const inputTime = "<%= order[0].orderDate %>";
+                                const date = new Date(inputTime);
+
+                                // Extracting individual components
+                                const year = date.getFullYear();
+                                const month = String(date.getMonth() + 1).padStart(2, "0"); // Adding 1 because month starts from 0
+                                const day = String(date.getDate()).padStart(2, "0");
+                                let hours = date.getHours();
+                                const minutes = String(date.getMinutes()).padStart(2, "0");
+                                const seconds = String(date.getSeconds()).padStart(2, "0");
+
+                                // Determine AM or PM
+                                const amPM = hours >= 12 ? 'PM' : 'AM';
+
+                                // Convert 24-hour to 12-hour format
+                                hours = hours % 12 || 12;
+
+                                // Forming the final string in the desired format
+                                const formattedate = `${year}-${month}-${day}`
+                                const time= `${hours}:${minutes}:${seconds} ${amPM}`;
+                                document.write('<h4>' + formattedate + '</h4>');
+                                document.write('<h4>' + time + '</h4>'); // Output formatted time
+                            </script>
+                        </div>
+                        <!-- Rest of the code remains unchanged -->
+
+                        <div class="order-details-1">
+                            <h3 class="orderId"><%= order[0].orderNumber %></h3>
+                            <h3 class="paymenttype"><%= order[0].paymentStatus %></h3>
+                        </div>
+                        <div class="order-details-2">
+                            <h3>Buyer Details:</h3>
+                            <div class="address">
+                                <h4><%= order[0].customer.address.street %></h4>
+                                <h4><%= order[0].customer.address.city %></h4>
+                                <h4>Email: <%= order[0].customer.email %></h4>
+                                <span>Phone: <%= order[0].customer.phone %></span>
+                                <span>Pincode: <%= order[0].customer.address.pincode %></span>
+                            </div>
+                        </div>
+                        <div class="details-3">
+                            <div class="payment-details">
+                                <h3>Payment Status: <%= order[0].status %></h3>
+                                <h4>Total: <%= order[0].totalPrice %></h4>
+                            </div>
+                            <div class="order-tracker">
+                                <button>TRACK</button>
+                            </div>
+                            <a class="link" href="">Generate Invoice</a>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="img">
+                            <img src="<%= order[0].products[0].img %>" alt="">
+                        </div>
+                        <div class="product-info">
+                            <a href=""><%= order[0].products[0].name %></a>
+                            <div class="product-model">
+                                <h3>Model: <%= order[0].products[0].model %></h3>
+                                <h3>Qty: <%= order[0].products[0].quantity %></h3>
+                            </div>
+                            <div class="product-price">
+                                <div class="price"><h3>Price: <%= (order[0].products[0].price)*order[0].products[0].quantity %></h3></div>
+                              <div class="del-charge">  <h3>Delivery Charge: 0</h3></div>
+                            </div>
+                            <div class="product-dispatch">
+                                <script>
+                                    const inputTime1 = "<%= order[0].orderDate %>";
+                                    const date1 = new Date(inputTime1);
+    
+                                    // Extracting individual components
+                                    const year1 = date1.getFullYear();
+                                    const month1 = String(date1.getMonth() + 1).padStart(2, "0"); // Adding 1 because month starts from 0
+                                    const day1 = String(date1.getDate()).padStart(2, "0");
+                                    let hours1 = date.getHours();
+                                    const minutes1 = String(date1.getMinutes()).padStart(2, "0");
+                                    const seconds1 = String(date1.getSeconds()).padStart(2, "0");
+    
+                                    // Determine AM or PM
+                                   
+    
+                                    // Convert 24-hour to 12-hour format
+                                    hours1 = hours1 % 12 || 12;
+    
+                                    // Forming the final string in the desired format
+                                    const formattedate1 = `${year1}-${month1}-${day1} ${hours1}:${minutes1}:${seconds1}`
+                                    
+                                    document.write('<h4>' +'Date:'+" "+ formattedate1 + '</h4>');
+                            // Output formatted time
+                                </script>
+                                <h3>Status: <%= order[0].status %></h3>
+                            </div>
+                            <div class="discount">
+                                <h3>Discount: <%= order[0].discount %>%</h3>
+                            </div>
+                        </div>
+                    </div>
+                <% } else { %>
+                    <p>No order found.</p>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com",
+        "address": {
+            "street": "123 Main St.",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "12345"
+        },
+        "phone": "123-456-7890"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "email": "jane@example.com",
+        "address": {
+            "street": "456 Elm St.",
+            "city": "Sometown",
+            "state": "NY",
+            "country": "USA",
+            "pincode": "54321"
+        },
+        "phone": "987-654-3210"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "email": "michael@example.com",
+        "address": {
+            "street": "789 Oak St.",
+            "city": "Smalltown",
+            "state": "TX",
+            "country": "USA",
+            "pincode": "67890"
+        },
+        "phone": "456-789-0123"
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Brown",
+        "email": "emily@example.com",
+        "address": {
+            "street": "101 Pine St.",
+            "city": "Villagetown",
+            "state": "FL",
+            "country": "USA",
+            "pincode": "54321"
+        },
+        "phone": "789-012-3456"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Miller",
+        "email": "william@example.com",
+        "address": {
+            "street": "345 Maple St.",
+            "city": "Largetown",
+            "state": "IL",
+            "country": "USA",
+            "pincode": "23456"
+        },
+        "phone": "012-345-6789"
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Wilson",
+        "email": "emma@example.com",
+        "address": {
+            "street": "567 Cedar St.",
+            "city": "Bigtown",
+            "state": "OH",
+            "country": "USA",
+            "pincode": "34567"
+        },
+        "phone": "345-678-9012"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Garcia",
+        "email": "james@example.com",
+        "address": {
+            "street": "789 Birch St",
+            "city": "Hometown",
+            "state": "MI",
+            "country": "USA",
+            "pincode": "45678"
+        },
+        "phone": "678-901-2345"
+    },
+    {
+        "firstName": "Olivia",
+        "lastName": "Martinez",
+        "email": "olivia@example.com",
+        "address": {
+            "street": "901 Elm St.",
+            "city": "Citytown",
+            "state": "WA",
+            "country": "USA",
+            "pincode": "56789"
+        },
+        "phone": "901-234-5678"
+    },
+    {
+        "firstName": "Ethan",
+        "lastName": "Hernandez",
+        "email": "ethan@example.com",
+        "address": {
+            "street": "234 Oak St",
+            "city": "Mountainville",
+            "state": "OR",
+            "country": "USA",
+            "pincode": "45678"
+        },
+        "phone": "123-456-7890"
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Lopez",
+        "email": "sophia@example.com",
+        "address": {
+            "street": "567 Pine St.",
+            "city": "Laketown",
+            "state": "CO",
+            "country": "USA",
+            "pincode": "67890"
+        },
+        "phone": "234-567-8901"
+    },
+    {
+        "firstName": "sandeep",
+        "lastName": "jha",
+        "email": "sjha@gmail.com",
+        "address": {
+            "street": "1 Main St.",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "123444"
+        },
+        "phone": "123-456-7890"
+    },
+    {
+        "firstName": "sourabh",
+        "lastName": "kumar",
+        "email": "sourabh@example.com",
+        "address": {
+            "street": "423 Main St.",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "10345"
+        },
+        "phone": "123-456-7890"
+    },
+    {
+        "firstName": "ramesh",
+        "lastName": "thakur",
+        "email": "ramesh@example.com",
+        "address": {
+            "street": "423 Main St.",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "10345"
+        },
+        "phone": "123-456-7890"
+    },
+    {
+        "firstName": "mayank",
+        "lastName": "ranjan",
+        "email": "mayank@example.com",
+        "address": {
+            "street": "423 Main St.",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "10345"
+        },
+        "phone": "123-456-7890"
+    }
+]

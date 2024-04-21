@@ -1,0 +1,227 @@
+[
+    {
+        "orderNumber": "ORD123",
+        "customerEmail": "john@example.com",
+        "products": [
+            {
+                "name": "HP Laptop",
+                "price": 100,
+                "quantity": 2,
+                "model":"HP Notebook Laptop, 15.6 HD Touchscreen",
+                "img": "https://m.media-amazon.com/images/I/81ZtiFciwrL._AC_SL1500_.jpg"
+            }
+        ],
+        "status": "Pending", 
+        "totalPrice": 200,
+        "discount":7
+    },
+    {
+        "orderNumber": "ORD456",
+        "customerEmail": "jane@example.com",
+        "products": [
+            {
+                "name": "Apple Iphone-15",
+                "price": 50,
+                "quantity": 3,
+                "model":"Apple iPhone 15 Pro (128 GB) - Black Titanium | [Locked] |",
+                "img": "https://m.media-amazon.com/images/I/81ZtiFciwrL._AC_SL1500_.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 150,
+        "discount":10
+    },
+    {
+        "orderNumber": "ORD789",
+        "customerEmail": "michael@example.com",
+        "products": [
+            {
+                "name": "Samsung Galaxy S23",
+                "price": 75,
+                "quantity": 1,
+                "model":"Samsung Galaxy S23 Ultra 5G SM-S918B/DS 256GB 12GB",
+                "img": "https://m.media-amazon.com/images/I/71EYdOx09+L._AC_SL1500_.jpg"
+            }
+        ],
+        "status": "Shipped",
+        "totalPrice": 75,
+        "discount":15
+    },
+    {
+        "orderNumber": "ORD101",
+        "customerEmail": "emily@example.com",
+        "products": [
+            {
+                "name": "Apple 2022 MacBook Pro",
+                "price": 120,
+                "quantity": 2,
+                "model":"Apple 2022 MacBook Pro Laptop with M2 chip: 13-inch Retina Display",
+                "img": "https://m.media-amazon.com/images/I/71K+bhq9bZL._AC_SL1500_.jpg"
+            }
+        ],
+        "status": "Delivered",
+        "totalPrice": 240,
+        "discount":8
+    },
+    {
+        "orderNumber": "ORD112",
+        "customerEmail": "william@example.com",
+        "products": [
+            {
+                "name": "Qhou",
+                "price": 80,
+                "quantity": 1,
+                "model":"KRIB-XQB201A-GREY6 Full Automatic Washing",
+                "img": "https://m.media-amazon.com/images/I/81q2WjFiYXL._AC_SL1500_.jpg"
+            }
+        ],
+        "status": "Pending",
+        "totalPrice": 80,
+        "discount":18
+    },
+    {
+        "orderNumber": "ORD113",
+        "customerEmail": "emma@example.com",
+        "products": [
+            {
+                "name": "Product 6",
+                "price": 60,
+                "quantity": 3,
+                "model":"mini",
+                "img": "product6.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 180,
+        "discount":12
+    },
+    {
+        "orderNumber": "ORD114",
+        "customerEmail": "james@example.com",
+        "products": [
+            {
+                "name": "Product 7",
+                "price": 95,
+                "quantity": 2,
+                "model":"",
+                "img": "product7.jpg"
+            }
+        ],
+        "status": "Shipped",
+        "totalPrice": 190,
+        "discount":22
+    },
+    {
+        "orderNumber": "ORD115",
+        "customerEmail": "olivia@example.com",
+        "products": [
+            {
+                "name": "Product 8",
+                "price": 110,
+                "quantity": 1,
+                "model":"",
+                "img": "product8.jpg"
+            }
+        ],
+        "status": "Delivered",
+        "totalPrice": 110,
+        "discount":7
+    },
+    {
+        "orderNumber": "ORD116",
+        "customerEmail": "ethan@example.com",
+        "products": [
+            {
+                "name": "Product 9",
+                "price": 85,
+                "quantity": 2,
+                "model":"",
+                "img": "product9.jpg"
+            }
+        ],
+        "status": "Pending",
+        "totalPrice": 170,
+        "discount":10
+    },
+    {
+        "orderNumber": "ORD117",
+        "customerEmail": "sophia@example.com",
+        "products": [
+            {
+                "name": "Product 10",
+                "price": 70,
+                "quantity": 3,
+                "model":"",
+                "img": "product10.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 210,
+        "discount":25
+    },
+    {
+        "orderNumber": "ORE117",
+        "customerEmail": "sjha@example.com",
+        "products": [
+            {
+                "name": "Product 10",
+                "price": 70,
+                "quantity": 3,
+                "model":"",
+                "img": "product10.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 230,
+        "discount":30
+    },
+    {
+        "orderNumber": "ORF117",
+        "customerEmail": "sourabh@example.com",
+        "products": [
+            {
+                "name": "Product 10",
+                "price": 70,
+                "quantity": 3,
+                "model":"",
+                "img": "product10.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 310,
+        "discount":18
+    },
+    {
+        "orderNumber": "ORG117",
+        "customerEmail": "ramesh@example.com",
+        "products": [
+            {
+                "name": "Product 10",
+                "price": 70,
+                "quantity": 3,
+                "model":"",
+                "img": "product10.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 610,
+        "discount":28
+    },
+    {
+        "orderNumber": "ORL117",
+        "customerEmail": "mayank@example.com",
+        "products": [
+            {
+                "name": "Product 10",
+                "price": 70,
+                "quantity": 3,
+                "model":"",
+                "img": "product10.jpg"
+            }
+        ],
+        "status": "payment-awaiting",
+        "totalPrice": 1110,
+        "discount":50
+    }
+
+]
